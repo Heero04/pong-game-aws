@@ -85,6 +85,7 @@ terraform apply -auto-approve
 
 ### 5️⃣ Verify Deployment
 Once complete, copy the EC2 Public IP from Terraform output and open it in a browser:
+    
     http://<YOUR_EC2_PUBLIC_IP>
     Example: 👉 http://52.22.15.221/
     
