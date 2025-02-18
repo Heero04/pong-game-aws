@@ -30,7 +30,7 @@ cd pong-game-aws
 terraform init
 terraform apply -auto-approve
 
-http://http://52.22.15.221/
+http://52.22.15.221/
 
 ### 📜 Troubleshooting
 Game not loading?
