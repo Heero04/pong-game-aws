@@ -11,7 +11,8 @@ The infrastructure follows **best security practices**, including **firewall rul
 ✅ **Terraform for Infrastructure as Code (IaC)**  
 ✅ **Secure EC2 Instance with Security Groups & IAM Policies**  
 ✅ **HTTP Access (Port 80) with Option to Add HTTPS**  
-✅ **Automated Deployment with Terraform**  
+✅ **Automated Deployment with Terraform** 
+✅ **Elastic IP**  
 
 ---
 
@@ -21,6 +22,7 @@ The infrastructure follows **best security practices**, including **firewall rul
 🔹 **Firewall Protection**: Only HTTP (80) and SSH (22) are open, restricted by security groups.  
 🔹 **No Hardcoded Credentials**: Sensitive data is ignored via .gitignore.  
 🔹 **HTTPS Option**: You can use AWS ACM and a Load Balancer for HTTPS.  
+
 
 ---
 
@@ -100,9 +102,11 @@ Once complete, copy the EC2 Public IP from Terraform output and open it in a bro
 ### ❌ Game Not Loading?
 
 Check if Nginx is running:  
+
     sudo systemctl status nginx
 
 If not, restart it:
+
     sudo systemctl restart nginx
 
 ### 🔒 Can't SSH into EC2?
