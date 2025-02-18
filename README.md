@@ -12,7 +12,6 @@ The infrastructure follows **best security practices**, including **firewall rul
 ✅ **Secure EC2 Instance with Security Groups & IAM Policies**  
 ✅ **HTTP Access (Port 80) with Option to Add HTTPS**  
 ✅ **Automated Deployment with Terraform** 
-✅ **Elastic IP**  
 
 ---
 
