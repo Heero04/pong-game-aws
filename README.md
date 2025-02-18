@@ -1,3 +1,4 @@
+
 ### Pong Game on AWS
 This project deploys a simple Pong game using Nginx on an AWS EC2 instance, provisioned using Terraform.
 
@@ -14,11 +15,17 @@ Git installed
 
 ### 📂 Project Structure
 ├── game.js
+
 ├── index.html
+
 ├── style.css
-├── main.tf          # Terraform configuration  
+
+├── main.tf          # Terraform configuration
+  
 ├── variables.tf     # Terraform variables  
+
 ├── .gitignore       # Ignore sensitive files  
+
 └── README.md
 
 ### ⚡ Deployment Steps
